@@ -1,0 +1,229 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    color: #2B2B2B;
+    background-color: #EAEAEA;;
+    font-family: 'Lato', Arial, sans-serif;
+}
+
+.wrapper {
+    width: 96%;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 2%;
+}
+
+h1 {
+  font-size: 3rem;
+  padding-bottom: 0.5rem;
+}
+
+h2 {
+  font-size: 2.3rem;
+}
+
+a {
+  color: #fff;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:focus, button:focus {
+  outline: 0;
+}
+
+.btn {
+  margin-right: 10px;
+  border: 2px solid purple;
+  border-radius: 30px;
+  background: #fff;
+  cursor: pointer;
+  font-size: 1.6rem;
+  margin-top: 8px;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background: purple;
+  border: 2px solid purple;
+  }
+
+  #header {
+    background-color: #B395C4;
+    padding: 15px 10px;
+    text-align: center;
+    border-radius: 7px;
+    color: #fff;
+  }
+
+  #onlineStatus {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+  }
+
+  #onlineStatus .btn-primary {
+
+  padding: 12px 28px;
+  transition: 0.4s;
+}
+
+#onlineStatus .btn {
+    border: 2px solid purple;
+    background: purple;
+    color: #fff;
+}
+
+#onlineStatus .btn:hover {
+  background: #fff;
+  border: 2px solid purple;
+  color: grey;
+}
+
+figcaption footer button {
+  padding: 10px;
+}
+
+.followerInfo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 40px;
+}
+
+.channel {
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    margin: 1rem;
+    min-width: 250px;
+    max-width: 310px;
+    background-color: #fff;
+    color: #2B2B2B;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  }
+  
+  .channel * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  .channel img {
+    max-width: 100%;
+    vertical-align: top;
+    position: relative;
+  }
+  
+  .channel figcaption {
+    padding: 10%;
+    padding-bottom: calc(25%);
+    background-color: #ffffff;
+  }
+  
+  .channel h3 {
+    font-family: 'Oswald';
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 3px 0;
+  }
+  
+  .channel h5 {
+    font-weight: 400;
+    margin: 0;
+    text-transform: uppercase;
+    color: #888;
+    letter-spacing: 1px;
+  }
+  
+  .channel footer {
+    border-top: 1px solid rgba(0, 0, 0, 0.065);
+    padding: 0 20px;
+    font-size: 13px;
+    line-height: 50px;
+    text-align: left;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+  
+  .channel footer .icons {
+    position: absolute;
+    right: 20px;
+    top: 0;
+  }
+  
+  .channel footer .icons > div {
+    display: inline-block;
+    margin-left: 8px;
+  }
+  
+  .channel footer .icons i {
+    display: inline-block;
+    margin-right: 5px;
+    font-size: 1em;
+  }
+  
+  .channel a {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    z-index: 1;
+  }
+
+  .followerInfo figure a {
+    transition: 0.5s;
+  }
+
+  .followerInfo figure a:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+
+figcaption {
+    position: relative;
+}
+  
+.date {
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 50%;
+    color: #700877;
+    font-size: 18px;
+    font-weight: 700;
+    min-height: 48px;
+    min-width: 48px;
+    padding: 15px 0;
+    position: absolute;
+  right: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  top: -25px;
+}
+
+.date span {
+    display: block;
+    line-height: 14px;
+}
+
+
+
+
+
+
+  
